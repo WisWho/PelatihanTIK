@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* **PRO TIP**: Tambahin ini biar ngitung lebar/tinggi elemen jadi lebih gampang! */
 }
 
 body {
@@ -21,18 +20,16 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
-/* **FIX**: Selector CSS yang benar untuk elemen di dalam kelas */
 .kartu-profile img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
     object-fit: cover;
-    /* **PRO TIP**: Biar gambarnya nggak gepeng! */
 }
 
 .kartu-profile h1 {
@@ -50,11 +47,9 @@ body {
     color: #007BFF;
     font-weight: bold;
     margin-bottom: 15px;
-    /* Tambahin biar nggak terlalu nempel sama tombol */
 }
 
 #sapaButton {
-    /* margin-top: 10px; -> Diubah biar lebih rapi dari a */
     background-color: #007BFF;
     color: white;
     border: none;
@@ -62,7 +57,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    /* **PRO TIP**: Efek halus saat disentuh */
 }
 
 #sapaButton:hover {
